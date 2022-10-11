@@ -74,9 +74,6 @@ function App() {
   return (
     <div className="App">
 
-      <h1 className='h1'>Birhday CRUD</h1>
-
-      <button className='btn__create' onClick={() => setFormAction(false)}>Create New User</button>
 
       <div className={`container__form ${formAction && 'form__disable'}`}>
         <FormUsers
@@ -102,6 +99,13 @@ function App() {
           />
         ))
       }
+
+      <button className='btn__create' onClick={() => setFormAction(false)}>Create New User</button>
+
+      <h1 className='h1'>Birhday CRUD</h1>
+
+
+
 
     </div>
   )

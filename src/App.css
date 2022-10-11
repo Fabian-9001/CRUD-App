@@ -33,7 +33,7 @@ img {
     width: 100%;
     min-height: 100vh;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     gap: 100px;
@@ -46,7 +46,7 @@ img {
 
 .h1 {
     font-size: 3rem;
-    color: rgb(153, 177, 245);
+    color: rgb(133, 187, 248);
     filter: drop-shadow(0 0 10px rgb(0, 195, 255));
     transition: 0.5s;
 }

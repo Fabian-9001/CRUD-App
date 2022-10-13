@@ -74,6 +74,14 @@ function App() {
   return (
     <div className="App">
 
+      <div className='app__background'>
+        <div className='app__figure1'></div>
+        <div className='app__figure2'></div>
+        <div className='app__figure3'></div>
+        <div className='app__figure4'></div>
+      </div>
+
+
 
       <div className={`container__form ${formAction && 'form__disable'}`}>
         <FormUsers
